@@ -1,0 +1,411 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <!-- 顶部菜单 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainpage_title_bg" >
+
+        <TextView
+            android:id="@+id/textView_dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:drawableRight="@drawable/jt_down"
+            android:textColor="@color/tv_white"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="@string/city_GZ"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btn_spiner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="96px" />
+
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ht_fangdajing"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:padding="10px" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/mainpage_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <!-- 滑动内容区域 -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            >
+
+            <!-- 应用分类模块1 -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mainpage_mk1_bg" 
+                >
+
+                <TextView
+                    android:id="@+id/textView_top01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_01"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/fujin_text_1"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:id="@+id/textView_top02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_02"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:textColor="@color/white"
+                    android:text="@string/fujin_text_2"/>
+
+                <TextView
+                    android:id="@+id/textView_top03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_03"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/fujin_text_3"
+                    android:textColor="@color/white" />
+
+            </LinearLayout> 
+
+            <!-- 应用分类模块2 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/mainpage_mk1_bg" 
+                >
+
+                <TextView
+                    android:id="@+id/textView_top04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_04"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:textColor="@color/white"
+                    android:text="@string/fujin_text_4" />
+
+                <TextView
+                    android:id="@+id/textView_top05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_05"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:textColor="@color/white"
+                    android:text="@string/fujin_text_5"/>
+
+                <TextView
+                    android:id="@+id/textView_top06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_06"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:textColor="@color/white"
+                    android:text="@string/fujin_text_6"/>
+
+            </LinearLayout> 
+
+            <TextView
+                android:id="@+id/mainpage_m2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+				android:layout_margin="10dp"
+                android:background="@drawable/mainpage_m2" 
+                />
+            
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:clickable="true"
+                android:background="@color/layout_bg" />
+            
+            <TextView
+                android:id="@+id/textView_zpy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:clickable="true"
+                android:drawableRight="@drawable/jt_right"
+                android:onClick="onClick"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/mainpage_zpy"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainpage_title_bg" />
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="20px"
+                android:clickable="true"
+                android:background="@color/layout_bg" />
+
+            <!-- 占便宜内容 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/white" 
+                android:gravity="center">
+                
+                <TextView
+                    android:id="@+id/linear_zpy_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_zpy_01"
+                    android:onClick="onClick"
+                    android:text="浪漫巴黎四日游"
+                    android:textColor="@color/text_bg1"/>
+                
+                <TextView
+                    android:id="@+id/linear_zpy_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/mainpage_zpy_02"
+                    android:onClick="onClick"
+                    android:text="风情圣保罗"
+                    android:textColor="@color/text_bg1"/>
+
+            </LinearLayout>
+            
+             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:clickable="true"
+                android:background="@color/layout_bg" />
+
+            <TextView
+                android:id="@+id/textView_zll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:clickable="true"
+                android:drawableRight="@drawable/jt_right"
+                android:onClick="onClick"
+                android:text="@string/mainpage_zll"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainpage_title_bg"  />
+            
+              <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:background="@color/gray_c" />
+
+            <!-- 应用分类模块2 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+ 				android:layout_margin="5dp"
+                android:background="@color/white" >
+
+                <TextView
+                    android:id="@+id/textView_zll01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_02"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_1"
+                    android:textColor="@color/text_bg1"/>
+
+                <TextView
+                    android:id="@+id/textView_zll02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_03"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_2"
+                    android:textColor="@color/text_bg1" />
+
+                <TextView
+                    android:id="@+id/textView_zll03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_04"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_3" 
+                    android:textColor="@color/text_bg1"/>
+
+                <TextView
+                    android:id="@+id/textView_zll04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_01"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_4"
+                    android:textColor="@color/text_bg1"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/textView_zll05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_02"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_5"/>
+
+                <TextView
+                    android:id="@+id/textView_zll06"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_03"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_6" />
+
+                <TextView
+                    android:id="@+id/textView_zll07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_04"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_7" />
+
+                <TextView
+                    android:id="@+id/textView_zll08"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/zll_01"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/zhuan_text_8"/>
+            </LinearLayout> 
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

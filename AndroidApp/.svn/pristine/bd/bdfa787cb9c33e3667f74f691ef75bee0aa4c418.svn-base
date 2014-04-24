@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="29dp"
+        android:background="@drawable/top_bg"
+       >
+
+        <ImageView
+            android:id="@+id/title_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/share" />
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/title_btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/user" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal" >
+
+        <com.ifidc.traffic.view.RoundImageView
+            android:id="@+id/user_image"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="0.8dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/user_image"
+            android:background="#d1c5bb" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="4dp"
+            android:layout_toLeftOf="@+id/settting"
+            android:layout_toRightOf="@id/line"
+            android:text="我的流量TT"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/user_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_toLeftOf="@+id/settting"
+            android:layout_toRightOf="@id/line"
+            android:text="aaaa"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@id/settting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/setting" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/integralbg" >
+
+        <TextView
+            android:id="@+id/user_socre_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/user_add_traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="27dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/user_save"
+            android:layout_width="100dp"
+            android:layout_height="50dp" >
+
+            <ImageView
+                android:id="@+id/user_save_image"
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/m_icon01" />
+
+            <TextView
+                android:id="@+id/user_save_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignTop="@id/user_save_image"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/user_save_image"
+                android:text="本月节省"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_save_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/user_save_tv1"
+                android:layout_alignRight="@id/user_save_tv1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FF0000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/user_Management"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="42dp" >
+
+            <ImageView
+                android:id="@+id/user_Management_image"
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/m_icon02" />
+
+            <TextView
+                android:id="@+id/user_Management_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignTop="@id/user_Management_image"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/user_Management_image"
+                android:text="流量管理"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_Management_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/user_Management_tv1"
+                android:layout_alignRight="@id/user_Management_tv1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FF0000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/user_advance"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/user_advance_image"
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/m_icon03" />
+
+            <TextView
+                android:id="@+id/user_advance_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/user_advance_image"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/user_advance_image"
+                android:text="网络加速"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_advance_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/user_advance_tv1"
+                android:layout_alignRight="@id/user_advance_tv1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FF0000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/user_add"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="42dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/user_add_image"
+                android:layout_width="44dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/m_icon04" />
+
+            <TextView
+                android:id="@+id/user_add_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/user_add_image"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/user_add_image"
+                android:text="待定"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/user_add_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/user_add_tv1"
+                android:layout_alignRight="@id/user_add_tv1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#FF0000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="284dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/app_view_background"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/left"
+            android:layout_width="17.3dp"
+            android:layout_height="35.3dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/leftkey" />
+
+        <ImageView
+            android:id="@+id/right"
+            android:layout_width="17.3dp"
+            android:layout_height="35.3dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rightkey" />
+
+        <com.ifidc.traffic.view.SlideView
+            android:id="@+id/slideView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@id/right"
+            android:layout_toRightOf="@id/left"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/imageView_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <!-- 主界面顶部菜单栏 -->
+    <color name="mainpage_bg">#f1f1f1</color>
+    <color name="mainpage_top_bg">#7fbffa</color>
+    <color name="mainpage_fujin_text">#adadad</color>
+    <color name="mainpage_text">#666</color>
+    
+    <!-- 顶部菜单背景色 -->
+    <color name="mainpage_title_bg">#17cfe0</color>
+    <color name="mainpage_mk1_bg">#09c2d3</color>
+    <color name="text_bg1">#323232</color>
+    <color name="text_bg2">#615e53</color>
+    <color name="text_bg3">#988f83</color>
+    
+    
+    <!-- 底部背景色 -->
+    <color name="layout_bg">#e6e6e6</color>
+    
+    <!-- 浅蓝色 -->
+     <color name="light_blue">#56a4ed</color>
+    <!-- 深蓝色 -->
+     <color name="dark_blue">#2785dd</color>
+    <!-- 浅黄色 -->
+     <color name="light_yellow">#e89218</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="black">#ff000000</color>
+    
+        <!-- 灰色背景 -->
+    <color name="gray_bg">#e9e9e9</color>
+    <color name="gray_c">#cccccc</color>
+    <color name="gray_3">#333333</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_9">#999999</color>
+    <color name="btn_bg">#efefef</color>
+    <color name="gray_tv">#747474</color>
+    <color name="gray_tv2">#C0C0C0</color>
+    <color name="white_bg">#ffffff</color>
+    <color name="black_bg">#000000</color>
+    <color name="red_tv">#E41D24</color>
+    <color name="click_blue_bg">#058cf5</color>
+    <color name="gray_line">#DCDCDC</color>
+    
+        <!--framework  字体变化-->
+    <color name="press_gray">#C99F6B</color>
+    <color name="normal_gray">#764B26</color>
+   
+        <!--字体    棕色-->
+    <color name="tv_brown">#795014</color>
+    <color name="tv_white">#ffffff</color>
+    <color name="tv_black">#000000</color>
+    
+      <!--点击效果    绿色-->
+    <color name="click_green_bg">#B6DA53</color>
+    
+    <color name="gray_lay">#10000000</color>
+    
+     <color name="store_detail_text_color_black">#000000</color> <!-- 店铺详情文字黑色 -->
+    <color name="blue">#0000FF</color>    <!-- 蓝色 -->
+    
+</resources>

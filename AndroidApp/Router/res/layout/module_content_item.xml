@@ -1,0 +1,344 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+     <include layout="@layout/layout_title" /> 
+    
+     <!-- 滑动内容区域 -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+     <!-- <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22px" 
+            android:background="@drawable/xiangqing_top"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:text="人均：￥57"
+            android:textColor="@color/black" />
+        
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_centerVertical="true"
+            android:text="人均：￥57"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_marginBottom="5dp"
+            android:text="粤菜   820m" 
+            android:textColor="@color/gray_9"
+            android:gravity="left" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="黄鳝饭" 
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black" />
+
+    </RelativeLayout> --> 
+  <!--   
+    <RelativeLayout
+        android:id="@+id/information_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/xiangqing_top_bj"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px" >
+
+            <ImageView
+                android:id="@+id/photo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="center" 
+                android:background="@drawable/xiangqing_top"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="160px"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/relativeLayout1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="店铺名称"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/content_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="人均: ￥60"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/distance_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/xiangqing_tel"
+                android:gravity="center"
+                android:text="8753-7628"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/light_yellow" />
+        </LinearLayout>
+        
+    </RelativeLayout>
+ -->
+ 
+  <RelativeLayout
+        android:id="@+id/information_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+             >
+
+            <ImageView
+                android:id="@+id/photo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="center" 
+                android:background="@drawable/rexiao_7"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout1"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/relativeLayout1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="黄鳝世家（龙口东店）"
+                android:textColor="@color/text_bg1"
+                android:gravity="left"  
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="3dp"/>
+            
+                     <TextView
+                     android:id="@+id/content_id"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:drawableLeft="@drawable/hm_xing3"
+                     android:layout_weight="1"
+                     android:gravity="left"/>
+                     
+                     <TextView
+                     android:id="@+id/content_id"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:text="人均: ￥60"
+                     android:textColor="@color/text_bg1" 
+                     android:gravity="center"/>
+           
+            <TextView
+                android:id="@+id/address_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="粤菜      820m"
+                android:textColor="@color/text_bg3"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"/>
+
+            <!-- <TextView
+                android:id="@+id/distance_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000米"
+                android:textColor="@color/light_blue" 
+                android:gravity="center" /> -->
+
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址：龙口东路346号天城广场2楼（近天润路）"
+        android:textColor="@color/text_bg1"
+        android:gravity="left"
+        android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电话：87537623"
+        android:textColor="@color/text_bg1"
+        android:gravity="left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/layout_bg" />
+    
+      <TextView
+                android:id="@+id/textView_zpy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="热销菜式"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mainpage_mk1_bg" />
+
+         <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_height="0.5dp"
+        android:background="@color/layout_bg" />
+      
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white" 
+                android:gravity="center">
+                
+                 <TextView
+                    android:id="@+id/textView_top01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/rexiao_item_1"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="鸡丁炒秋蔡" 
+                    android:textColor="@color/text_bg1"/>
+                        
+                        <TextView
+                    android:id="@+id/textView_top02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/rexiao_item_2"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="巴里椰子鱼" 
+                    android:textColor="@color/text_bg1"/>
+                        
+                        <TextView
+                    android:id="@+id/textView_top02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawableTop="@drawable/rexiao_item_3"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="芥末捞鸡" 
+                    android:textColor="@color/text_bg1"/>
+                        </LinearLayout>
+                        
+              <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/layout_bg" />
+                        
+                </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

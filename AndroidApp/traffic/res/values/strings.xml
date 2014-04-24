@@ -1,0 +1,20 @@
+<resources>
+	
+    <string name="app_name">流量管理</string>
+	<string name="homepage_text">首页</string>
+	<string name="flow_text">冲浪</string>
+	<string name="add_flow_text">赚流量</string>
+	<string name="fav_flow_text">收藏应用</string>
+	<string name="home_flow_text">应用中心</string>
+	<string name="add_app_text">添加</string>
+	<string name="register_text">注册</string>
+	<string name="manager_app_text">管理</string>
+	<string name="image_url">Image Url</string>
+	 <string name="border_top">Border Top</string>
+    <string name="border_bottom">Border Bottom</string>
+    <string name="total_text">共收藏d个应用</string>
+    <string name="traffic_manager_text">流量管理</string>
+    <string name="month_text">月</string>
+     <string name="date_text">日</string>
+      <string name="app_text">软件</string>
+</resources>

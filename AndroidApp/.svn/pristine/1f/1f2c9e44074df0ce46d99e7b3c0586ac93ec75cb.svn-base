@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:id="@+id/information_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+             >
+
+            <ImageView
+                android:id="@+id/photo_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="center" 
+                android:background="@drawable/rexiao_1"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/relativeLayout1"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@+id/relativeLayout1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="店铺名称"
+                android:textColor="@color/text_bg1"
+                android:gravity="center"  
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                            
+            android:layout_marginTop="2dp"/>
+            
+<!--             <TextView
+                android:id="@+id/content_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/hm_xin_03"
+                android:drawableRight="@drawable/jt_right"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="人均: ￥60"
+                android:textColor="@color/light_blue" /> -->
+
+                     <TextView
+                     android:id="@+id/content_id"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:drawableLeft="@drawable/hm_xing3"
+                     android:drawableRight="@drawable/jt_right"
+                     android:text="  人均: ￥60"
+                     android:textColor="@color/text_bg1" 
+                     android:gravity="center"/>
+           
+            <TextView
+                android:id="@+id/address_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="石牌/龙口 粤菜      410m"
+                android:textColor="@color/text_bg3"
+                android:gravity="center"
+                android:layout_marginBottom="3dp"/>
+
+            <!-- <TextView
+                android:id="@+id/distance_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1000米"
+                android:textColor="@color/light_blue" 
+                android:gravity="center" /> -->
+
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+ 
+</RelativeLayout>

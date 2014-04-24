@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:background="@color/mainpage_title_bg" >
+
+<!--     <ImageView
+        android:id="@+id/title_btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/leibie_fanghui"
+        android:padding="15dp"/> -->
+    <ImageView
+            android:id="@+id/title_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/leibie_fanghui"
+            android:clickable="true"
+            android:onClick="onClick"
+             android:visibility="gone"
+            android:layout_marginLeft="15dp" 
+            />
+
+    <TextView
+        android:id="@+id/title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/title_btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:padding="10dp"/>
+
+</RelativeLayout>

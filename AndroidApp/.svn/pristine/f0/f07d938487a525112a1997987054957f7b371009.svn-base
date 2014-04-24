@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:id="@+id/information_item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/information_item_bg" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/information_photo_bg" >
+
+            <ImageView
+                android:id="@+id/photo_id"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:padding="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="center" />
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="ww"
+            android:layout_toRightOf="@+id/relativeLayout1" />
+
+        <TextView
+            android:id="@+id/content_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title_id"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="wwss"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+</RelativeLayout>

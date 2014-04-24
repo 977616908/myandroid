@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 主页城市集合 -->
+    <string-array name="city_array">
+        <item>北京</item>
+        <item>广州</item>
+        <item>深圳</item>
+        <item>中山</item>
+        <item>珠海</item>
+        <item>佛山</item>
+        <item>东莞</item>
+        <item>惠州</item>
+        <item>长沙</item>
+        <item>江西</item>
+    </string-array> 
+    
+</resources>   

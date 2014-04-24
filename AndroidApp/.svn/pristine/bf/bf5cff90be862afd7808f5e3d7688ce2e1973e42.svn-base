@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="menu_text">#ffffff</color>
+    <color name="menu_text_p">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>    <!-- 蓝色 -->
+    <color name="darkcyan">#0099ff</color>    <!-- 暗青色 -->
+    <color name="menuView_bg">#1f2022</color>    <!-- 菜单View的背景 -->
+    <color name="radio_text_up">#ffffff</color>    <!-- button 没有按下的颜色 -->
+    <color name="radio_text_down">#6b3c12</color>    <!-- Button按下的颜色 -->
+    <color name="gainsboro">#DCDCDC</color> <!-- 淡灰色 -->
+    <color name="floralwhite">#FFFAF0</color> <!-- 花白色 -->
+    <color name="title_text_color">#FFFFFF</color> <!-- 白色 -->
+    <color name="store_detail_text_color_black">#000000</color> <!-- 店铺详情文字黑色 -->
+    <color name="my_order_color">#469bdd</color> <!-- 我的订单蓝色-->
+    <color name="my_color_gray">#999999</color> <!-- 评论字体略灰-->
+ 	<color name="map_center">#5005cee0</color>
+ 	<color name="map_list_color">#e0ffffff</color>
+ 	<color name="listproduct_text">#066dbc</color>
+ 	<color name="button_click_pressed">#0000AA</color>
+ 	<color name="button_click_normal">#F0F8FF</color>
+ 	
+ 	<color name="bg_color">#EDEDED</color>
+  <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="help_button_view">#ffcccccc</color>
+  <color name="help_view">#ff404040</color>
+  <color name="possible_result_points">#c0ffff00</color>  
+  <color name="bg">#e7e7e7</color>  
+  
+  
+  
+  
+  <color name="result_image_border">#ffffffff</color>
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c000ff00</color>
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="sbc_header_text">#ff808080</color>
+  <color name="sbc_header_view">#ffffffff</color>
+  <color name="sbc_list_item">#fffff0e0</color>
+  <color name="sbc_layout_view">#ffffffff</color>
+  <color name="sbc_page_number_text">#ff000000</color>
+  <color name="sbc_snippet_text">#ff4b4b4b</color>
+  <color name="share_text">#ff000000</color>
+  <color name="share_view">#ffffffff</color>
+  <color name="status_view">#50000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="header">#58567D</color>
+  <color name="grgray">#686868</color>
+  <color name="rute_bg">#ddEDEDED</color>
+  <color name="user_info_down">#729e32</color><!-- 首页侧拉用户按下绿色 -->
+  <color name="user_info_bg">#252525</color><!-- 首页侧拉用户默认背景 -->
+  <color name="secondary_menu_bg">#333333</color><!--二级应用默认背景  -->
+  <color name="first_menu_bg">#2f2f2f</color><!--一级应用默认背景  -->
+  <color name="first_menu_down">#2f7690</color><!--一级应用按下背景蓝色  -->
+ 	
+</resources>

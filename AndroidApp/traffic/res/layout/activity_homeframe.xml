@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_myslide"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom_lay" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/bottom_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:id="@+id/homepage_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/button" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/homepage_imageView"
+                    android:layout_width="56dp"
+                    android:layout_height="37dp"
+                    android:background="@drawable/homebutton" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="首页"
+                    android:textColor="@color/menu_text" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/findshop_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/button" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/account_imageView"
+                    android:layout_width="56dp"
+                    android:layout_height="37dp"
+                    android:background="@drawable/moneyflowbutton" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="赚流量"
+                    android:textColor="@color/menu_text" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/order_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/button" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/order_imageView"
+                    android:layout_width="56dp"
+                    android:layout_height="37dp"
+                    android:background="@drawable/savebutton" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I上网"
+                    android:textColor="@color/menu_text" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/button" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="37dp"
+                    android:background="@drawable/savebutton" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="占便宜"
+                    android:textColor="@color/menu_text" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_c"
+ >
+
+     <include layout="@layout/layout_title" /> 
+    
+    
+    <!-- 标题栏（含有下拉框） -->
+      <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/mainpage_top_bg" >
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/leibie_soso"
+            android:drawableRight="@drawable/leibie_xia"
+            android:onClick="onClick"
+            android:paddingEnd="10dp"
+            android:text="全部商户"
+            android:textColor="@color/white"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_spiner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp" />
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/leibie_fanghui"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:padding="15dp" />
+
+    </RelativeLayout> -->
+    
+    
+    
+    
+    <!-- 
+     <com.ifidc.router.pultorefreshlist.view.XListView
+        android:id="@+id/xListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fadingEdge="none" /> -->
+        
+        <ListView
+                android:id="@+id/xListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:dividerHeight="0dp"
+                >
+            </ListView>
+
+</LinearLayout>
